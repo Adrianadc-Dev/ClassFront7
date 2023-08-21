@@ -30,15 +30,27 @@
 .card{
     height: 529x;
     width: 300px;
+    border-radius: 15px;
+    background-color: #F3F3F3;
+    box-shadow:0px 3px 20px 3px black;
+}
+.text{
+    padding: 10px;
+    
 }
 .pcard{
     font-size: 16px;
     padding: 10px;
+    position: relative;
+    bottom: 45px;
 
 }
 .tcard{
     font-size: 30px;
     text-align: center;
+    position: relative;
+    bottom: 45px;
+
 }
 button{
     background-color: #00669F;
@@ -48,6 +60,9 @@ button{
     width: 128px;
     padding: 16px;
     text-align: center;
+    position: relative;
+    left: 86px;
+    bottom: 15px;
 }
 .foot{
     background-color:#00669F ;
@@ -62,4 +77,10 @@ button{
 .imgfond{
     height: 194x;
     width: 300px;
+}
+.imgperfil{
+    border-radius: 100%;
+    position: relative;
+    left: 89px;
+    bottom: 60px;
 }
